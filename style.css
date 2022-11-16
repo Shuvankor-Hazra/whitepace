@@ -189,3 +189,25 @@ Management area CSS
         margin-bottom: 50px;
     }
 }
+
+/* 
+Extansion area CSS
+*/
+.extension-area{
+    padding: 140px 0;
+    background-color: #043873;
+}
+.extension-area .theme-text h3{
+    color: #fff;
+}
+.extension-area .theme-text p{
+    color: #fff;
+}
+@media (max-width: 991px){
+    .extension-area .theme-button{
+        margin-bottom: 50px;
+    }
+    .extension-area{
+        padding: 80px 0;
+    }
+}
