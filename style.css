@@ -21,13 +21,20 @@ body{
     font-size: 18px;
     background-color: #C4DEFD;
     color: #fff;
+    line-height: 1.7;
 }
 .theme-button{
     display: inline-block;
     background: #4F9CF9;
     border-radius: 8px;
     padding: 16px 24px !important;
-    margin-left: 24px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+}
+.theme-button:hover{
+    color: #fff;
+    background-color: #043873;
 }
 .theme-button-two{
     display: inline-block;
@@ -35,7 +42,6 @@ body{
     color: #043873 !important;
     border-radius: 8px;
     padding: 16px 24px !important;
-    margin-left: 24px;
 }
 .theme-button img{
     margin-left: 10px;
@@ -47,6 +53,12 @@ Header CSS
 .header-area{
     background-color: #043873;
     padding: 16px 0;
+}
+.header-area .theme-button{
+    margin-left: 24px;
+}
+.header-area .theme-button-two{
+    margin-left: 24px;
 }
 .header-area .nav-link{
     color: #fff;
@@ -83,5 +95,42 @@ Header CSS
         right: 28px;
         top: 50%;
         transform: translateY(-50%);
+    }
+    .header-area .theme-button{
+        margin-left: 0;
+    }
+    .header-area .theme-button-two{
+        margin-left: 0;
+    }
+}
+
+/* 
+Hero area CSS
+*/
+.hero-area{
+    background-image: url(img/hero-bg.png);
+    padding: 140px 0;
+    background-size: cover;
+    background-position: center;
+}
+.hero-text h3{
+    font-weight: 700;
+    font-size: 52px;
+}
+.hero-area .theme-button{
+    margin-top: 30px;
+}
+@media (max-width: 991px){
+    .hero-area{
+        padding: 80px 0;
+    }
+    .hero-text{
+        text-align: center;
+    }
+    .hero-text h3{
+        font-size: 36px;
+    }
+    .hero-area .theme-button{
+        margin-bottom: 50px;
     }
 }
