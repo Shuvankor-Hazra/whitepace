@@ -22,3 +22,52 @@ body{
     background-color: #C4DEFD;
     color: #fff;
 }
+.theme-button{
+    display: inline-block;
+    background: #4F9CF9;
+    border-radius: 8px;
+    padding: 16px 24px !important;
+    margin-left: 24px;
+}
+.theme-button-two{
+    display: inline-block;
+    background: #FFE492;
+    color: #043873 !important;
+    border-radius: 8px;
+    padding: 16px 24px !important;
+    margin-left: 24px;
+}
+.theme-button img{
+    margin-left: 10px;
+}
+
+/* 
+Header CSS
+*/
+.header-area{
+    background-color: #043873;
+    padding: 16px 0;
+}
+.header-area .nav-link{
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    padding: 16px 24px !important;
+}
+
+@media (max-width: 991px){
+    .theme-button{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .theme-button-two{
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .header-area .nav-link{
+        padding: 16px 0;
+    }
+}
