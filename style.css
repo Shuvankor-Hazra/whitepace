@@ -186,6 +186,7 @@ Management area CSS
 .work-management{
     margin-top: 100px;
 }
+
 @media (max-width: 991px){
     .management-area{
         background-color: #fff;
@@ -212,6 +213,7 @@ Extansion area CSS
 .extension-area .theme-text p{
     color: #fff;
 }
+
 @media (max-width: 991px){
     .extension-area .theme-button{
         margin-bottom: 50px;
@@ -228,6 +230,7 @@ Customise area CSS
     background-color: #fff;
     padding: 140px 0;
 }
+
 @media (max-width: 991px){
     .customise-area{
         padding: 80px 0;
@@ -287,4 +290,27 @@ Pricing area CSS
     .single-pricing{
         margin-bottom: 30px;
     }
+}
+
+/* 
+Your work area CSS
+*/
+.your-work-area{
+    padding: 140px 0;
+    background-color: #043873;
+}
+.your-work-area .theme-text h3{
+    color: #fff;
+}
+.your-work-area .theme-text p{
+    color: #fff;
+}
+
+/* 
+Yourtask area CSS
+*/
+
+.your-task-area{
+    padding: 140px;
+    background-color: #fff;
 }
