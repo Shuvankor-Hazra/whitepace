@@ -449,6 +449,9 @@ Footer area CSS
     .header-area{
         font-size: 16px;
     }
+    .header-area .theme-button{
+        width: 100%;
+    }
 }
 @media (max-width: 991px){
     .hero-area{
@@ -604,13 +607,11 @@ Footer area CSS
 }
 @media (max-width: 991px){
     .theme-button{
-        width: 100%;
         margin-left: 0px;
         margin-top: 15px;
         text-align: center;
     }
     .theme-button-two{
-        width: 100%;
         text-align: center;
         margin-left: 0px;
         margin-top: 15px;
