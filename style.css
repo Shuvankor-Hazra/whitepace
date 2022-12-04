@@ -633,5 +633,6 @@ Footer area CSS
     }
     .header-area .theme-button-two{
         margin-left: 0;
+        width: 100%;
     }
 }
